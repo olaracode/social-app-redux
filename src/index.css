@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -6,13 +7,29 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+/* START HOME STYLES */
 .main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./img/login.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh;
 }
-
+h1 {
+  font-family: "Tinos", serif;
+}
+.login-logo {
+  height: 80px;
+  padding-right: 10px;
+}
+.span-link {
+  color: #ef3c56;
+  cursor: pointer;
+}
 .dark {
   background-image: url("./img/dark.jpg");
 }
@@ -22,7 +39,13 @@ body {
 button.MuiToggleButton-root {
   color: #e64a5c;
 }
-button.MuiToggleButton-root.Mui-selected {
-  background-color: #1a2027 !important;
-  color: white;
+/* END HOME STYLES */
+
+/* START NAV BAR STYLES */
+.nav-logo {
+  width: 25px;
+  padding: 0 10px 0 0;
 }
+.nav-title {
+}
+/* END NAV BAR STYLES */
